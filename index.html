@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery+RequireJS Sample Page</title>
+        <style>
+          a {
+            cursor: pointer;
+            color: blue;
+          }
+          a:hover {
+            border-bottom: 1px solid;
+          }
+          .hide { display: none; }
+          }
+        </style>
+        <script data-main="js/app" src="js/lib/require.js"></script>
+    </head>
+    <body>
+        <h1>jQuery+RequireJS Sample Page</h1>
+        <p>Look at source or inspect the DOM to see how it works.</p>
+
+        <nav>
+             <a class="js-tab" data-tab-content="orange">orange</a>
+             <a class="js-tab" data-tab-content="red">red</a>
+         </nav>
+         <div class="js-tab-orange">Orange Content</div>
+         <div class="js-tab-red hide">Red Content</div>
+    </body>
+</html>
