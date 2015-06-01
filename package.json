@@ -1,10 +1,10 @@
 {
-  "name": "FEJStesting",
+  "name": "RequireJS_Sample",
   "version": "0.0.1",
   "description": "a sample testing setup",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tevko/FEJStesting.git"
+    "url": "https://github.com/tdogg137/RequireJS_Sample.git"
   },
   "keywords": [
     "testing",
@@ -16,7 +16,7 @@
   "author": "@tevko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tevko/FEJStesting/issues"
+    "url": "https://github.com/tdogg137/RequireJS_Sample/issues"
   },
   "homepage": "https://github.com/tevko/FEJStesting",
   "devDependencies": {
